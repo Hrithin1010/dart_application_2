@@ -6,6 +6,8 @@ void main(){
    int phone = 7356875908;
    double mark = 6.6;
    String email = "hrithinak@gmail.com";
+   String collage = ("Luminar");
+
 
 
    print("student details");
@@ -14,5 +16,6 @@ void main(){
    print("my phone number is $phone");
    print("my mark is $mark");
    print("my email is $email");
+   print("My collage is $collage ");
 
 }
