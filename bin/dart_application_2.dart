@@ -7,6 +7,7 @@ void main(){
    double mark = 6.6;
    String email = "hrithinak@gmail.com";
    String collage = ("Luminar");
+   
 
 
 
