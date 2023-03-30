@@ -11,6 +11,7 @@ class Students{
 
   /// static variable
       static String course = "FLUTTER";
+      static const String institute =  "LUMINAR";/// for fixing the variable
 
 }
 
@@ -38,6 +39,7 @@ void main(){
   print("CGPA    :${st2.cgpa  = 50}");
   print("Email   :${st2.email ="hrithin1010@gmail.com"}");
   print("course   : ${Students.course}");
+  print('institute: ${Students.institute}');
 
 
  
