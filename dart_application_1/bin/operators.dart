@@ -51,4 +51,42 @@ void main(){
      print("z==10 =${z==10}");
      print("z!=10 ${z!=10}");
 
+
+
+    ///Logical Operators &&   || !(expression)
+    String username = "Admin";
+    String pswd     = 'admin@1234';
+    int otp         = 7864;
+    print(username == "Admin"  &&  pswd == 'admin@1234' && otp == 7864); // All conditions has to be true
+    print(username == "admin"  && pswd == 'Admin@1234'  || otp == 60);
+    print('!(otp == 8079)');
+
+
+    ///Bitwise opeartors
+    int i = 10;  // 1010     1=true    0=false
+    int j = 3; // 0011
+    ///i&j  =  0010=2
+    ///i|j  =  1011=11
+    ///i^j  =  1001=9
+
+    print(i&j);
+    print(i|j);
+    print(i^j);
+
+    ///conditional operators   condition ? true statement : false statement ;
+    int age = 10;
+    var result = (age >= 18) ? "Welcome to vote" : "NOT Eligible";
+    print(result);
+
+
+    int abc = 25;
+    int bbc = 40;
+    
+
+    var result1 =(abc > bbc)? "Largest number is abc"  :  "Largest number is bbc";
+     print(result1);
+
+     
+
+
 }
