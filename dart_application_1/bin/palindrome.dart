@@ -41,13 +41,15 @@ void main(){
 //Factorial
 
   
-//   int num =5;
-//   int result =1;
-//   for (int i = 1; i <= num; i++) {
+//   print('Enter a value');
+//   int N = int.parse(stdin.readLineSync()!);
+ 
+//   int result = 1;
+//   for (int i = 1; i <= N; i++) {
 //     result *= i;
 //   }
-
-//   print('Factorial of $num');
+ 
+//   print('Factorial of $N');
 //   print(result);
 // }
 
@@ -88,18 +90,37 @@ void main(){
 
 //fiboncci series
 
-int n1 =0;
-int n2 =0;
-int n3;
-print(n1);
-print(n2);
-for(int i= 2; i<= 10;i++);
-n3=n1+n2;
-print(n3);
-n1=n2;
-n2=n3;
+//  int n1 = 0, n2 = 1, n3;
+//   print(n1);
+//   print(n2);
+
+//   for (int i = 2; i <= 15; i++) {
+//     n3 = n1 + n2;
+//     print('$n3');
+//     n1 = n2;
+//     n2 = n3;
+//   }
+// }
+
+//prime number 1 to 10
+
+print("Enter the number");
+int? num = int.parse(stdin.readLineSync()!);
+ for(int i =2; i<= 10; i++){
+  checkPrime(i);
+
+ }
 }
-
-
-
-
+void checkPrime(int num){
+  int i, m=0, flag=0;
+  m=num ~/ 2;
+  for(i=2;i<=m;i++){
+  if(num%i==0){
+    flag=1;
+    break;
+  }
+}
+if(flag==0){
+  print('$num');
+}
+}

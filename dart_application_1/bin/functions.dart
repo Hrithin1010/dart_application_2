@@ -13,7 +13,6 @@ void main(){
 
 
 
-}
 
 //1. functions without return type and parameters
 
@@ -58,3 +57,15 @@ void main(){
 // }
 
 
+//5. lambda / arrow function
+
+String abc() => "hello";
+
+
+//6. Anonymous function
+
+// () { statements; }
+// (para) { statements; }
+// () => statements;
+//(para) => statements;
+}
