@@ -12,7 +12,7 @@ void main(){
 
 
 
-
+//function - state of set
 
 //1. functions without return type and parameters
 
