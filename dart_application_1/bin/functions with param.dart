@@ -33,7 +33,7 @@ void show2(String name, int phone, {int? phone2, required String state}){
 }
 
 
-//optional named
+//optional named parameterised function
 void display2(String name, int phone,{int? phone2, required String state, int pincode=680505}){
   print("Name:$name");
   print("phone:$phone");

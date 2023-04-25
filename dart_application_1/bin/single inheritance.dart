@@ -10,28 +10,28 @@ class parent{
 
 //single inheritance  keyword = extents
 
-class Child extents Parent{
-String cname  = "Arun";
-int cage  = 6;
+// class Child extents Parent{
+// String cname  = "Arun";
+// int cage  = 6;
 
 
-void std(int std , int rollno){
-  print("Roll no  = $rollno");
-  print("Standard  = $std");
-}
-}
+// void std(int std , int rollno){
+//   print("Roll no  = $rollno");
+//   print("Standard  = $std");
+// }
+// }
 
-void main(){
-  //parent pobj  = parent();
-  //print(pobj.name);
-  //print(pobj.age);
-  //pobj.job("Engineer",1000000);
+// void main(){
+//   //parent pobj  = parent();
+//   //print(pobj.name);
+//   //print(pobj.age);
+//   //pobj.job("Engineer",1000000);
  
 
- Child obj = Child();
- print("parent name = ${obj.name}");
-print("parent age = ${obj.age}");
-obj.job("engineer", 1000000);
-print("child name = ${obj.cname}");
-print
-}
+//  Child obj = Child();
+//  print("parent name = ${obj.name}");
+// print("parent age = ${obj.age}");
+// obj.job("engineer", 1000000);
+// print("child name = ${obj.cname}");
+// print
+// }
